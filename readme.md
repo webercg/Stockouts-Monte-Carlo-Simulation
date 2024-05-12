@@ -102,7 +102,7 @@ Quantidade adquirida por compra = N_DIAS_REABAST * demanda_diaria
 
 ![](images/capital_total_preso_estoque_e_stockout.png) 
 
-- A melhor área para se operar as políticas de compra é com estoque mínimo intermediário 210 á 270 e quantidade a ser comprada suficiente para abastecer 5 á 7 dias de demanda.
+- Considerando as perdas em estoque e as perdas por stockout, a melhor área para se operar as políticas de compra é com estoque mínimo intermediário 210 á 270 e quantidade a ser comprada suficiente para abastecer 5 á 7 dias de demanda.
 - Contudo, essa pode não ser as melhores especificações de política de compras, pois estamos desconsiderando 3 efeitos:
 
         1) Com compras mais frequentes há maior tempo alocado para realização de compras, esse tempo não entrou no indicador de capital gasto;  
@@ -110,7 +110,7 @@ Quantidade adquirida por compra = N_DIAS_REABAST * demanda_diaria
         3) Com compras mais frequentes menor é o poder de negociação de prazos de pagamentos, o que impacta diretamente no capital de giro 
 
 # Conclusões
-As simulações realizadas sugerem que a melhor estratégia para otimizar o capital de giro é adotar uma política de compra que priorize em menores quantidades, e portanto, mais frequentes além de manter um estoque mínimo num nível intermediário entre 210 e 270. 
+As simulações realizadas sugerem que a melhor estratégia para otimizar o capital de giro, considerando as perdas por capital em estoque e perdas por stockout é adotar uma política de compra que priorize a aquisição em menores quantidades, e portanto, mais frequentes além de manter um estoque mínimo num nível intermediário entre 210 e 270. 
 
 No entanto, é importante ressaltar que essas simulações não consideram outros fatores importantes para redimensionar o estoque visando a otimização do capital de giro. não contemplam o aumento dos custos operacionais decorrentes da frequência elevada de compras, a possível perda de poder de negociação dos prazos de pagamento com fornecedores impactanto diretamente o capital de giro ou os potenciais reajustes nos preços unitários devido à redução do volume comprado. que podem influenciar na demanda em resposta às variações nos preços (Elasticidade Preco-Demanda).
 
