@@ -78,7 +78,7 @@ Quantidade adquirida por compra = N_DIAS_REABAST * demanda_diaria
 
 ## Avaliação de risco de stockout:
 
-![](images/distribuicao_demanda_simulada.png) 
+![](images/risco_stockout.png) 
 
 - Em geral, quanto menor o estoque mínimo e maior os n_dias_reabast maior é o risco de stockout
 - Os riscos tendem a aumentar consideravelmente chegando a próximos de 100% com estoques mínimos abaixo de 260.
