@@ -9,6 +9,12 @@ O objetivo deste estudo é explorar estratégias de otimização do capital de g
 
 # Regras de negócios e parâmetros de simulação:
 
+## Visualização Nivel de Estoque:
+
+- Exemplo de visualização de nível de estoque em uma simulação com StockOut!
+![](images/simulacao_com_stockout.png)
+
+
 ## Lead time do fornecedor:
 - Definição: Período entre a data da realização do pedido e a entrega dos produtos.
 - Premissa: Distribuição triangular em torno do lead máximo, mínimo e mais provável do fornecedor
