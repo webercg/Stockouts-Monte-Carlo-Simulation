@@ -1,4 +1,4 @@
-# Estratégias de Otimização de Capital de Giro: Simulações de Monte Carlo para Redimensionamento de Estoque
+# Otimização de Capital de Giro e risco de stockouts: Estratégias de redimensionamento de Estoque com simulações de Monte Carlo
 
 # Introdução
 No mundo dos negócios, a eficiência na gestão do capital de giro é crucial para a saúde financeira de uma empresa. Um dos meios de se aumentar o capital de giro é redimensionando as políticas de estoque. O desafio de lidar com uma demanda variável e um lead time do fornecedor também variável, porém conhecidos, requer abordagens mais robustas. Nesse contexto, as simulações de Monte Carlo surgem como uma ferramenta poderosa para explorar diferentes cenários e tomar decisões data-driven.
