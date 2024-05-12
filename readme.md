@@ -82,7 +82,7 @@ Quantidade adquirida por compra = N_DIAS_REABAST * demanda_diaria
 
 - Em geral, quanto menor o estoque mínimo e maior os n_dias_reabast maior é o risco de stockout
 - Os riscos tendem a aumentar consideravelmente chegando a próximos de 100% com estoques mínimos abaixo de 260.
-- Nas regiões de n_dias_reabast entre 5 e 7 e estoque mínimo entre 200 e 230 há 33% de probabilidade de stockout. Certamente
+- Nas regiões de n_dias_reabast entre 5 e 7 e estoque mínimo entre 200 e 230 apontadas como ponto ótimo se considerarmos apenas o capital preso em estoque há 33% de probabilidade de stockout. Será necessário estimar o capital perdido por stockout para tomada de decisão.
 
 ## Avaliação Cenários semelhantes
 - Operação ocorre em estoque mínimo = 400 e n_dias_reabast = 30. Outras políticas de compras possívels para manter probabilidades de stockouts menores ou iguais as observadas (1%) são as ilustradas abaixo:
